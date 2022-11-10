@@ -1,0 +1,129 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: #F1f1f1;
+    
+
+}
+
+
+.tittle{
+    height: 20px;
+    margin: 0px 0px 5px 0px;
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    text-align: center;
+}
+
+.foto{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;    
+}
+
+.image{   
+    width: 150px ;
+    
+    border-radius: 75px;
+   
+}
+
+.descripcion{
+    margin: -17px;
+    padding: 0px 276px;
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-size: 20px;
+    text-align: center;
+}
+
+.botones{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: content-box;
+}
+
+.boton1{    
+    text-decoration: none;
+    width: 400px;
+    height: 20px;
+    background: #D5E6FF;
+    color: #0053CC;
+    text-align: center;
+    padding: 20px;
+    box-sizing: content-box;
+    margin: 4px;
+}
+
+.boton2{    
+    text-decoration: none;
+    width: 400px;
+    height: 20px;
+    background: #FFE6DB;
+    color: #E14400;
+    text-align: center;
+    padding: 20px;
+    box-sizing: content-box;
+    margin: 4px;
+}
+
+.boton3{    
+    text-decoration: none;
+    width: 400px;
+    height: 20px;
+    background: #FFE6DB;
+    color: #E14400;
+    text-align: center;
+    padding: 20px;
+    box-sizing: content-box;
+    margin: 4px;
+}
+
+.boton4{    
+    text-decoration: none;
+    width: 400px;
+    height: 20px;
+    background: #FFE6DB;
+    color: #E14400;
+    text-align: center;
+    padding: 20px;
+    box-sizing: content-box;
+    margin: 4px;
+}
+
+.redes{
+    display: flex;
+    height: 40px;
+    justify-content: center;
+}
+
+.ig{
+    margin: 0px 40px 0px 40px;
+}
+.yt{
+    margin: 0px 40px 0px 40px;
+}
+.tw{
+    margin: 0px 40px 0px 40px;
+}
+
+/* width: 200px; */
+
+.boton2:hover, .boton3:hover, .boton4:hover{
+    opacity: 0.7;
+    border: solid #E14400 1px;
+}
+.boton1:hover{
+    opacity: 0.7;
+    border: solid #0053CC 1px;
+}
+
+@media (max-width: 760px){
+    .descripcion{
+        margin: 0px;
+        padding: 0px;
+    }
+}
